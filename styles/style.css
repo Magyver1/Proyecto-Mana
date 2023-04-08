@@ -99,7 +99,17 @@ h1 {
     margin-left: 10px;
     margin-right: 5px;
     margin-bottom: 30px;
-    
+
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
