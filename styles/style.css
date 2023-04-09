@@ -138,3 +138,17 @@ h2 {
     font-style: italic;
 }
 
+/* ---------- PAG ALBUNES ------------- */
+
+#albunes .col-lg-4{
+    padding: 20px;
+}
+
+#albunes img {
+    width: 100%;
+    height: 250px;
+}
+
+#albunes img:hover {
+    border: solid white;
+}
