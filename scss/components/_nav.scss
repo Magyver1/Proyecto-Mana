@@ -1,0 +1,38 @@
+// ------ nav header ----- //
+
+.navbar {
+    background-image: url(../image/background.png);
+}
+
+.navbar-nav a {
+    color: rgb(200, 189, 162);
+}
+
+.navbar-nav a:hover {
+    color: white;
+}
+
+.nav-rs {
+    padding: 5px;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-outline-success:hover {
+    border: solid;
+    color: white;
+    background-color: grey;
+}
+
+.form-control {
+    border: solid;
+    color: white;
+}
+
+.btn-outline-success {
+    border: solid;
+    color: white;
+}
