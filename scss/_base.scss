@@ -1,6 +1,38 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// ----- body -----//
+
+body {
+  background-image: url(../image/background.png);
+}
+
+// ----- lista ----- //
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+// ----- HR ----- //
+
+hr {
+  color: rgb(200, 189, 162);
+  border: solid;
+}
+
+// ----- H1 ----- //
+
+h1 {
+  color: hsl(0, 0%, 0%);
+  padding: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 50px;
+  -webkit-text-stroke: 2px rgb(200, 189, 162);
+}
