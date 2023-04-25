@@ -79,24 +79,7 @@ h1 {
   color: white;
 }
 
-.img-fluid {
-  align-items: center;
-  border-radius: 30px;
-  padding: 20px;
-}
-
-.parrafo-inicio {
-  padding: 25px;
-  color: rgb(200, 189, 162);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: justify;
-}
-
-.card-body,
-p {
+.card-body p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
@@ -117,6 +100,42 @@ h2 {
 .row a {
   color: black;
   text-decoration: none;
+}
+
+.card-text {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: rgb(200, 189, 162);
+}
+
+.card-title {
+  color: rgb(200, 189, 162);
+}
+
+.card-body-grupo {
+  padding: 35px;
+}
+
+.img-fluid {
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.parrafo-inicio {
+  padding: 25px;
+  color: rgb(200, 189, 162);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.juan {
+  width: 300vh;
 }
 
 .input-group {
