@@ -36,3 +36,12 @@
     border: solid;
     color: white;
 }
+
+.navbar-collapse {
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.navbar-collapse.show {
+    max-height: 1000px;
+}
