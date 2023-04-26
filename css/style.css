@@ -32,9 +32,23 @@ h1 {
 .nav-item a {
   color: rgb(200, 189, 162);
 }
-
 .nav-item a:hover {
   color: white;
+}
+.nav-rs {
+  padding: 5px;
+}
+.nav-2 {
+  display: flex;
+  justify-content: center;
+}
+
+a[href*=instagram] svg {
+  fill: rgb(116, 17, 31);
+}
+
+a[href*=twitter] svg {
+  fill: blue;
 }
 
 .derechos {
@@ -42,25 +56,21 @@ h1 {
   color: rgb(200, 189, 162);
 }
 
+.navbar-collapse {
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
 .navbar {
   background-image: url(../image/background.png);
 }
-
 .navbar-nav a {
   color: rgb(200, 189, 162);
 }
-
 .navbar-nav a:hover {
   color: white;
 }
-
-.nav-rs {
-  padding: 5px;
-}
-
-.nav-2 {
-  display: flex;
-  justify-content: center;
+.navbar-collapse.show {
+  max-height: 1000px;
 }
 
 .btn-outline-success:hover {
@@ -68,24 +78,14 @@ h1 {
   color: white;
   background-color: grey;
 }
-
-.form-control {
-  border: solid;
-  color: white;
-}
-
 .btn-outline-success {
   border: solid;
   color: white;
 }
 
-.navbar-collapse {
-  max-height: 0;
-  transition: max-height 0.5s ease-in-out;
-}
-
-.navbar-collapse.show {
-  max-height: 1000px;
+.form-control {
+  border: solid;
+  color: white;
 }
 
 .card-body p {
@@ -118,16 +118,14 @@ h2 {
   font-size: 18px;
   color: rgb(200, 189, 162);
 }
-
-.card-title {
+.cardt-itle {
   color: rgb(200, 189, 162);
 }
-
 .card-body-grupo {
   padding: 35px;
 }
 
-.img-fluid {
+#img-index {
   align-items: center;
   border-radius: 30px;
   padding: 20px;
@@ -143,13 +141,50 @@ h2 {
   text-align: justify;
 }
 
-.juan {
-  width: 300vh;
+.rounded-start {
+  border-radius: 35px !important;
+}
+
+.img-galeria {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .input-group {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
+}
+
+.form-contacto {
+  background-color: rgba(126, 125, 123, 0.382);
+  padding: 20px;
+  border-radius: 10px;
+  border: solid rgb(200, 189, 162);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.mb-3 {
+  color: rgb(200, 189, 162);
+}
+
+.btn-primary {
+  background-color: rgb(153, 153, 135);
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background-color: rgb(89, 88, 88);
+  border-color: black;
+}
+
+.btn-secondary {
+  background-color: rgb(153, 153, 135);
+  border-color: black;
 }
 
 #albunes .col-lg-4 {

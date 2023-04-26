@@ -1,7 +1,6 @@
 // ----- card articulos index -----//
 
-.card-body
-p {
+.card-body p {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -27,19 +26,21 @@ h2 {
 // ----- card grupo ----- //
 
 
+.card {
 
-.card-text {
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 18px;
-    color: rgb(200, 189, 162);
-}
+    &-text {
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        color: rgb(200, 189, 162);
+    }
 
-.card-title {
-    color: rgb(200, 189, 162)
-}
+    &t-itle {
+        color: rgb(200, 189, 162)
+    }
 
-.card-body-grupo {
-    padding: 35px;
+    &-body-grupo {
+        padding: 35px;
+    }
 }

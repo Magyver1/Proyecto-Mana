@@ -4,3 +4,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
+
+.form-contacto {
+    background-color: rgba(126, 125, 123, 0.382);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid rgb(200, 189, 162);
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.mb-3 {
+    color: rgb(200, 189, 162);
+}
+
+.btn-primary {
+    background-color: rgb(153, 153, 135);
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: rgb(89, 88, 88);
+    border-color: black;
+}
+
+.btn-secondary {
+    background-color: rgb(153, 153, 135);
+    border-color: black;
+}

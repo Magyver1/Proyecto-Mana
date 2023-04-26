@@ -1,47 +1,45 @@
 // ------ nav header ----- //
 
 .navbar {
-    background-image: url(../image/background.png);
+
+    &-collapse {
+        max-height: 0;
+        transition: max-height 0.5s ease-in-out;
+    }
+
+    & {
+        background-image: url(../image/background.png);
+    }
+
+    &-nav a {
+        color: rgb(200, 189, 162);
+    }
+
+    &-nav a:hover {
+        color: white;
+    }
+
+    &-collapse.show {
+        max-height: 1000px;
+    }
+    
 }
 
-.navbar-nav a {
-    color: rgb(200, 189, 162);
-}
+.btn {
+    &-outline-success:hover {
+        border: solid;
+        color: white;
+        background-color: grey;
+    }
 
-.navbar-nav a:hover {
-    color: white;
-}
+    &-outline-success {
+        border: solid;
+        color: white;
+    }
 
-.nav-rs {
-    padding: 5px;
-}
-
-.nav-2 {
-    display: flex;
-    justify-content: center;
-}
-
-.btn-outline-success:hover {
-    border: solid;
-    color: white;
-    background-color: grey;
 }
 
 .form-control {
     border: solid;
     color: white;
-}
-
-.btn-outline-success {
-    border: solid;
-    color: white;
-}
-
-.navbar-collapse {
-    max-height: 0;
-    transition: max-height 0.5s ease-in-out;
-}
-
-.navbar-collapse.show {
-    max-height: 1000px;
 }
