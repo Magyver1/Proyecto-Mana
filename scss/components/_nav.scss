@@ -22,21 +22,18 @@
     &-collapse.show {
         max-height: 1000px;
     }
-    
+
 }
 
-.btn {
-    &-outline-success:hover {
-        border: solid;
-        color: white;
-        background-color: grey;
-    }
+.btn-outline-success:hover {
+    border: solid;
+    color: white;
+    background-color: grey;
+}
 
-    &-outline-success {
-        border: solid;
-        color: white;
-    }
-
+.btn-outline-success {
+    border: solid;
+    color: white;
 }
 
 .form-control {
