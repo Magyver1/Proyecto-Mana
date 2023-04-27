@@ -33,11 +33,11 @@ h2 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: italic;
         font-size: 18px;
-        color: rgb(200, 189, 162);
+        color: $color-principal;
     }
 
     &t-itle {
-        color: rgb(200, 189, 162)
+        color: $color-principal
     }
 
     &-body-grupo {

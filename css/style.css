@@ -73,11 +73,16 @@ a[href*=twitter] svg {
   max-height: 1000px;
 }
 
+#nv-br {
+  --bs-scroll-height: 100px;
+}
+
 .btn-outline-success:hover {
   border: solid;
   color: white;
   background-color: grey;
 }
+
 .btn-outline-success {
   border: solid;
   color: white;

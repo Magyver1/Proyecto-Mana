@@ -3,7 +3,7 @@
 .nav {
 
     &-item a {
-        color: rgb(200, 189, 162);
+        color: $color-principal;
     }
 
     &-item a:hover {
@@ -30,5 +30,5 @@ a[href*="twitter"] svg {
 
 .derechos {
     text-align: center;
-    color: rgb(200, 189, 162);
+    color: $color-principal;
 }
