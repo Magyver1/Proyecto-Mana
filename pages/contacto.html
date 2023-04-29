@@ -80,22 +80,30 @@
         <!-- Formulario -->
 
         <div class="container">
-            <form class="mx-auto col-12 col-sm-8 col-md-6 col-lg-4 form-contacto">
+
+            <form class="mx-auto col-12 col-sm-8 col-md-6 col-lg-4 form-contacto"
+                action="https://formsubmit.co/magyver2908@gmail.com" method="POST">
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" name="Nombre"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="Email" required>
                 </div>
                 <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="8"
-                        placeholder="Escriba aquí su mensaje"></textarea>
+                    <textarea class="form-control" id="mensaje" rows="8" placeholder="Escriba aquí su mensaje"
+                        name="Mensaje" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
                 <button type="reset" class="btn btn-secondary">Reset</button>
+
+                <tipo de entrada="nombre oculto"="_captcha" valor="falso"></tipo>
+                <input type="hidden" name="_next" value="https://proyecto-mana.netlify.app/pages/contacto.html">
+                
+
             </form>
         </div>
     </main>

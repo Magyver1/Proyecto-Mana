@@ -13,12 +13,7 @@ ol {
   list-style-type: none;
 }
 
-hr {
-  color: rgb(200, 189, 162);
-  border: solid;
-}
-
-h1 {
+h1, h3 {
   color: hsl(0, 0%, 0%);
   padding: 30px;
   text-align: center;
@@ -27,6 +22,11 @@ h1 {
   font-weight: 800;
   font-size: 50px;
   -webkit-text-stroke: 2px rgb(200, 189, 162);
+}
+
+hr {
+  color: rgb(200, 189, 162);
+  border: solid;
 }
 
 .nav-item a {
@@ -146,6 +146,22 @@ h2 {
   text-align: justify;
 }
 
+.video-mana {
+  padding-top: 30px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.cancion {
+  text-align: center;
+  color: rgb(200, 189, 162);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
 .rounded-start {
   border-radius: 35px !important;
 }
@@ -202,7 +218,7 @@ h2 {
 }
 
 #albunes img:hover {
-  border: solid white;
+  border: solid rgb(200, 189, 162);
 }
 
 /*# sourceMappingURL=style.css.map */
