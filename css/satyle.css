@@ -72,12 +72,6 @@ a[href*=twitter] svg {
 .navbar-collapse.show {
   max-height: 1000px;
 }
-.navbar-toggler:focus {
-  box-shadow: none !important;
-}
-.navbar-toggler {
-  border: none !important;
-}
 
 #nv-br {
   --bs-scroll-height: 100px;
@@ -227,4 +221,4 @@ h2 {
   border: solid rgb(200, 189, 162);
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=satyle.css.map */
