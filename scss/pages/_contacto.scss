@@ -1,22 +1,14 @@
 // ----------- PAG CONTACTO ----------- //
 
-.input-group {
-    font-family: $familia-letra-principal;
-    font-style: $style-letra-principal;
-}
+.form-group {
+        padding: 5px;
+        border-radius: 10px;
+        border: solid $color-principal;
+        margin-top: 10px;
+    }
 
-.form-contacto {
-    background-color: rgba(126, 125, 123, 0.382);
-    padding: 20px;
-    border-radius: 10px;
-    border: solid $color-principal;
-    margin-top: 30px;
-    margin-bottom: 50px;
-
-}
-
-.mb-3 {
-    color: $color-principal;
+.form-bt {
+    padding: 30px;
 }
 
 .btn-primary {

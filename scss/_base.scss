@@ -8,7 +8,7 @@
 
 $color-principal: rgb(200, 189, 162);
 
-// ----- tipo de letra ----- //
+// ----- letra ----- //
 
 $familia-letra-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -29,7 +29,7 @@ ol {
 
 // ----- H1 ----- //
 
-h1, h3 {
+h1, h3, legend {
   color: hsl(0, 0%, 0%);
   padding: 30px;
   text-align: center;
