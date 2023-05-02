@@ -2,8 +2,8 @@
 
 .card-body p {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: $familia-letra-principal;
+    font-style: $style-letra-principal;
 }
 
 .articulo {
@@ -14,8 +14,8 @@
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: $familia-letra-principal;
+    font-style: $style-letra-principal;
 }
 
 .row a {
@@ -23,15 +23,15 @@ h2 {
     text-decoration: none;
 }
 
-// ----- card grupo ----- //
 
+// ----- card grupo ----- //
 
 .card {
 
     &-text {
         text-align: justify;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-style: italic;
+        font-family: $familia-letra-principal;
+        font-style: $style-letra-principal;
         font-size: 18px;
         color: $color-principal;
     }
