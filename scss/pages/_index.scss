@@ -9,11 +9,21 @@
 // ---------- TEXTO INDEX ----------- //
 
 .parrafo-inicio {
-    padding: 25px;
+    padding: 35px;
     color: $color-principal;
     font-family: $familia-letra-principal;
     font-style: $style-letra-principal;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.parrafo-inicio-2 {
+    padding: 35px;
+    color: $color-principal;
+    font-family: $familia-letra-principal;
+    font-style: $style-letra-principal;
+    font-size: 18px;
     font-weight: 500;
     text-align: justify;
 }
