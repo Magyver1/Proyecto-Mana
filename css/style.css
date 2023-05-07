@@ -201,6 +201,11 @@ h2 {
   text-align: justify;
 }
 
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+
 .form-group {
   padding: 5px;
   border-radius: 10px;
