@@ -106,7 +106,7 @@ a[href*=twitter] svg {
 }
 
 .articulo {
-  max-width: 60vh;
+  max-width: 70vh;
   margin-left: 10px;
   margin-right: 5px;
   margin-bottom: 30px;
@@ -180,6 +180,26 @@ h2 {
 
 .rounded-start {
   border-radius: 35px !important;
+}
+
+.fher {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.alex {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.juan {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.sergio {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .img-galeria {
